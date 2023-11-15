@@ -10,8 +10,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-  final String _url_ppt =
-      'https://brand.uconn.edu/wp-content/uploads/sites/2820/2019/08/blue-UConnNation-wideformat-temp.pptx';
+  final String _url_ppt = 'https://www.africau.edu/images/default/sample.pdf';
 
   //const MyApp({super.key});
 
@@ -27,7 +26,7 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: start_page(),
         ),
-        floatingActionButton: FloatingActionButton(
+        floatingActionButton: FloatingActionButton.extended(
           onPressed: () {
             print("button pressed");
             FileDownloader.downloadFile(
@@ -40,7 +39,8 @@ class MyApp extends StatelessWidget {
                   print(file);
                 });
           },
-          child: Text('Click'),
+          label: Text('Download'),
+          icon: Icon(Icons.edit),
         ),
       ),
     );
