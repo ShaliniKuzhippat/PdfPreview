@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "445123006934",
+    "project_id": "fir-sample1-e7765",
+    "storage_bucket": "fir-sample1-e7765.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445123006934:android:04a0cd0bd775ef6bf1d477",
+        "android_client_info": {
+          "package_name": "com.shalu.firebase_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV37VEZMyPjF_6OWnTYvhgMbmoEKtd2bQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
