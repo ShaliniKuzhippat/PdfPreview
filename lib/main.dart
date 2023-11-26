@@ -52,6 +52,7 @@ class MyApp extends StatelessWidget {
           icon: Icon(Icons.arrow_downward_rounded),
         ),
       ),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
